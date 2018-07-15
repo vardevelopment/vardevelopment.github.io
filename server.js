@@ -39,6 +39,5 @@ server.on('connection', function(client) {
     });
 });
 
-http.listen(3000, function(){
-  console.log('Listening on port 3000');
+http.listen(0.0.0.0, function(){
 });
